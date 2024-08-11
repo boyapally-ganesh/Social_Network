@@ -20,7 +20,7 @@ Follow these steps to get your development environment set up:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/social-network.git
+   https://github.com/boyapally-ganesh/Social_network.git
    cd social-network
 
 ```
