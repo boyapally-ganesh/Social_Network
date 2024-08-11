@@ -21,7 +21,7 @@ Follow these steps to get your development environment set up:
 1. Clone the repository:
    ```bash
    https://github.com/boyapally-ganesh/Social_network.git
-   cd social-network
+   cd Social_network
 
 ```
 
@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
  ```bash
  
 ### Notes:
-- Replace `https://github.com/yourusername/social-network.git` with your actual GitHub repository URL.
+
 - Ensure you include any specific environment variables needed for your Django settings in the `.env` file example.
 - You might want to provide more specific API usage details or expand the sections based on your project’s features or requirements.
 
