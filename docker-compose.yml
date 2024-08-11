@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .  # Uses the Dockerfile in the current directory
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app  # Mounts the code into the container at /app
+    ports:
+      - "8000:8000"  # Exposes port 8000 to access Django server
+    environment:
+      - DEBUG=1  # Environment variables can be defined here
