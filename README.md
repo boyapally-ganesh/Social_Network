@@ -140,7 +140,7 @@ Description: Registers a new user with email, name, and password
   }
 
 ```
-
+After login u will get access key to perform other operations like sent friend request etc. 
 ### Send Friend Request
 #### Method: POST
 #### Endpoint: http://127.0.0.1:8000/api/friend-request/
